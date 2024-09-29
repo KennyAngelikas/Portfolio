@@ -4,7 +4,7 @@ import '../styles/Overlay.css'; // Ensure the path matches your project structur
 
 const Overlay = () => {
   const [isVisible, setIsVisible] = useState(true);
-  const name = "Kenny Angelikas";
+  const name = "Kenneth Angelikas";
   const letters = name.split("");
 
   useEffect(() => {

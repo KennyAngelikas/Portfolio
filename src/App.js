@@ -1,13 +1,15 @@
 import React from 'react';
 import Overlay from './components/Overlay';
-import './styles/App.css';  // Include any general styles like header background here.
+import Header from './components/Header';
+import './styles/App.css';
 
 function App() {
   return (
     <div className="App">
       <Overlay />
-      <header className="App-header">
-      </header>
+      <Header />
+
+      
     </div>
   );
 }

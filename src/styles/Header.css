@@ -1,0 +1,92 @@
+/* Header.css */
+
+/* Container styling */
+.header-container {
+    position: relative;
+    background-color: #0f0f0f; /* Black background */
+    color: white;
+    overflow: hidden;
+    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Navigation styling */
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-link {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #bbbbbb; /* Light gray on hover */
+  }
+  
+  /* Hero content styling */
+  .hero-content {
+    text-align: center;
+    margin-top: 150px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 0.5s;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin: 0;
+    color: white;
+  }
+  
+  .highlight {
+    color: #ffffff; /* Keep the highlight color white */
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #dddddd; /* Slightly lighter gray for subtitle */
+  }
+  
+  /* Responsive design */
+  @media (min-width: 768px) {
+    .hero-title {
+      font-size: 4rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1.5rem;
+    }
+  
+    .navigation {
+      padding: 30px 50px;
+    }
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
